@@ -1,0 +1,236 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    min-width: 760px;
+    max-width: 1440px;
+}
+
+.navigation {
+    height: 70px;
+    background: rgba(255, 184, 119, 0.7);
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    background-color: #fff;
+    margin-left: 58px;
+    padding: 12px 7px;
+}
+
+.small_title {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.small_title a {
+    color: gray;
+    padding-left: 31px;
+}
+
+.tab {
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-direction: row;
+    align-items: center;
+}
+
+.tab ul {
+    list-style: none;
+    display: flex;
+}
+
+.tab li {
+    font-size: 20px;
+    padding-right: 35px;
+}
+
+
+/* banner */
+
+.banner {
+    width: 100%;
+    height: 800px;
+    background-image: url("https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    text-align: center;
+    color: white;
+}
+
+
+/* service_item */
+
+.service_item {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap; */
+}
+
+.service_item h3 {
+    display: block;
+}
+
+.type_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.type_group .type {
+    min-width: 2%;
+    text-align: center;
+    background-color: pink;
+    margin: 4%;
+    padding: 8%;
+    border-radius: 50%;
+    height: 50%;
+}
+
+
+/* hot_service */
+
+.hot_group {
+    display: flex;
+}
+
+.hot_card {
+    background-color: gray;
+    width: 480px;
+    height: 360px;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-direction: column; */
+    margin: 10px;
+}
+
+.hot_card_frame {
+    width: 460px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+
+.image {
+    width: 455px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title .money {
+    padding-right: 30px;
+}
+
+.location {
+    display: flex;
+}
+
+.location .now {
+    font-size: 20px;
+    padding-right: 160px;
+}
+
+.location .other {
+    font-style: 14px;
+    text-decoration: underline;
+}
+
+
+/* clean_service */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small_image {
+    width: 98%;
+    height: 214px;
+    /* padding-left: 7px;
+    padding-top: 14px; */
+}
+
+.card {
+    width: 21%;
+    height: 400px;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card_frame {
+    width: 280px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h5 {
+    margin: 7px 0;
+}
+
+.card_money {
+    font-size: 24px;
+}
+
+.card_location {
+    display: flex;
+    justify-content: space-between;
+    font-style: 16px;
+    color: #656566;
+}
+
+.card_location_other {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #656566;
+}
+
+.card_person {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.card_online {
+    display: flex;
+    justify-content: space-between;
+    font-style: 16px;
+}
